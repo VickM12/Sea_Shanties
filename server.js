@@ -26,8 +26,8 @@ mongoose.connection.once('open', () => {
 });
 
 // Controller
-const shantyController = require('./controllers/shanty.js');
-app.use('/shanty', shantyController);
+// const shantyController = require('./controllers/shanty.js');
+// app.use('/shanty', shantyController);
 
 app.get('/', (req, res) => {
   res.render('Index.jsx')
